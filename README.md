@@ -100,8 +100,11 @@ Iterate through the DataFrame, converting each row to a dictionary.
 
 Iterate through each dictionary, doing the following:
 Extract the dictionary values from the keys by using a Python list comprehension.
+
 Add the values for each row to a new list.
+
 Create a new DataFrame that contains the extracted data.
+
 Split each "name" column value into a first and last name, and place each in a new column.
 
 Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
@@ -177,30 +180,47 @@ The subcategory DataFrame is exported as subcategory.csv (5 points)
 A Campaign DataFrame is Created (30 points)
 
 The DataFrame has the following columns: (25 points)
-A "cf_id" column
-A "contact_id" column
-A "company_name" column
-A "description" column
-A "goal" column that is a float data type
-A "pledged" column that is a float data type
-An "outcome" column
-A "backers_count" column
-A "country" column
-A "currency" column
-A "launch_date" with the time formatted as "YYYY-MM-DD"
-An "end_date" with the time formatted as "YYYY-MM-DD"
-A "category_id" column that contains the unique identification numbers matching those in the "category_id" column of the category DataFrame
-A "subcategory_id" column that contains the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
+* A "cf_id" column
+
+* A "contact_id" column
+
+* A "company_name" column
+
+* A "description" column
+
+* A "goal" column that is a float data type
+
+* A "pledged" column that is a float data type
+
+* An "outcome" column
+
+* A "backers_count" column
+
+* A "country" column
+
+* A "currency" column
+
+* A "launch_date" with the time formatted as "YYYY-MM-DD"
+
+* An "end_date" with the time formatted as "YYYY-MM-DD"
+
+* A "category_id" column that contains the unique identification numbers matching those in the "category_id" column of the category DataFrame
+
+* A "subcategory_id" column that contains the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 
 The campaign DataFrame is exported as campaign.csv (5 points)
 
 A Contacts DataFrame is Created (15 points)
 
 The DataFrame has the following columns: (10 points)
-A "contact_id" column
-A "first_name" column
-A "last_name" column
-An "email" column
+*A "contact_id" column
+
+*A "first_name" column
+
+*A "last_name" column
+
+* An "email" column
+
 The contacts DataFrame is exported as contacts.csv (5 points)
 
 A Crowdfunding Database is Created (25 points)
